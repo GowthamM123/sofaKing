@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+        background-color: beige;
+       
+}
+body h1{
+    margin-top: 7%;
+}
+    
+
+.header{
+    display: flex;
+    background-color: rgb(10, 14, 49);
+    padding: 15px;
+    position: fixed;
+    width: 97.8%;
+    position: absolute;
+   top: 0;
+   
+    
+}
+.nav{
+   
+   
+    margin-left: 60%;
+    
+   
+    
+    
+}
+.nav h3{
+    color: aliceblue;
+    display: inline;
+    margin-right: 50px;
+    
+}
+.nav a{
+    text-decoration-line:none ;
+}
+.nav h3:hover{
+    color: rgb(146, 104, 49);
+    font-size: 19px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.box1{
+    
+    width: 25%;
+    height: 50%;
+    border-radius: 15px;
+    margin-top:3%;
+    
+    
+}
+
+.box2{
+    
+    width: 25%;
+    height: 50%;
+   border-radius: 15px;
+    margin-top: 3%;
+    
+    
+    
+}
+.box1 img{
+    border-radius: 10px;
+    width:340px;
+}
+.box1 img:hover{
+    width:338px;
+}
+
+.box2 img{
+    border-radius: 10px;
+    width:340px;
+}
+.box2 img:hover{
+    width:338px;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color:  rgb(10, 14, 49);
+    display: flex;
+    bottom: 0;
+    justify-content: space-between;
+    
+}
+.footer h4{
+    padding: 10px;
+    color: aliceblue;
+}
+.footer img{
+    height: 35px;
+    padding: 10px;
+}
+body p{
+    padding: 50px;
+}
+.login{
+    width: 20%;
+    height: 50%;
+    margin: 5%;
+}
+#password{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: solid 1.5px;
+    border-color: black;
+}
+#username{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: solid 1.4px;
+    border-color: black;
+}
+.password{
+    margin: 2%;
+}
+.username{
+    margin-bottom: 20%;
+}
+.Login{
+    background-color: rgb(10, 14, 49);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+}
+.login button:hover{
+    
+    
+    color: gold;
+}
+
+.box3 img{
+    border-radius: 10px;
+    width:340px;
+    margin-top: 10%;
+}
+.box3 img:hover{
+    width:338px;
+    
+}
+.box4 img{
+    border-radius: 10px;
+    width:340px;
+    margin-top: 10%;
+}
+.box4 img:hover{
+    width:338px;
+}
+.box5 img{
+    border-radius: 10px;
+    width:340px;
+    margin-top: 10%;
+}
+.box5 img:hover{
+    width:338px;
+}
+.box6 img{
+    border-radius: 10px;
+    width:340px;
+    margin-top: 10%;
+}
+.box6 img:hover{
+    width:338px;
+}
+.box7 img{
+    border-radius: 10px;
+    margin-top: 10%;
+    width:340px;
+}
+.box7 img:hover{
+    width:338px;
+}
+.box8 img{
+    border-radius: 10px;
+    width:340px;
+    margin-top: 10%;
+}
+.box8 img:hover{
+    width:338px;
+}
+.container2{
+    padding:5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+
+}
+
